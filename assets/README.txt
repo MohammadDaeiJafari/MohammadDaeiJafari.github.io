@@ -1,1 +1,1 @@
-Replace this file with your real CV PDF named Mohammad-Daei-Jafari-CV.pdf
+Place your professional photo and Mohammad-Daei-Jafari-CV.pdf here.
