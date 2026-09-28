@@ -1,133 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Mohammad Daei Jafari — ideas, research, conversations, and professional work across psychology, organizations, leadership, and higher education.">
-<title>Mohammad Daei Jafari — Personal Brand</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohammad Reza Daei Jafari — personal brand, research, writing, media, conferences, and interests.">
+  <meta name="author" content="Mohammad Reza Daei Jafari">
+  <meta name="theme-color" content="#0d1b2a">
+  <title>Mohammad Reza Daei Jafari | Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-  <div class="nav-wrap">
-    <a class="home" href="#top">Home</a>
-    <button class="menu" aria-label="Open navigation">☰</button>
-    <nav id="nav">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#insights">Insights</a>
-      <a href="#publications">Publications</a>
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Home">Home</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">About Me</a>
+      <a href="#daily-insights">Daily Insights</a>
+      <a href="#research">Research</a>
+      <a href="#books">Books</a>
       <a href="#media">Media</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-      <a class="cv" href="assets/Mohammad-Daei-Jafari-CV.pdf">CV ↗</a>
+      <a href="#conferences">Conferences</a>
+      <a href="#interests">My Interests</a>
+      <a class="nav-cv" href="#cv">CV ↗</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-<main id="top">
-<section class="hero">
-  <div class="hero-copy">
-    <p class="kicker">PSYCHOLOGY · ORGANIZATIONS · LEADERSHIP · IDEAS</p>
-    <h1>Thinking about<br><em>people, work,</em><br>and what comes next.</h1>
-    <p class="lead">I explore the intersection of psychology, organizations, leadership, technology, and higher education — through research, writing, conversation, and practice.</p>
-    <div class="actions">
-      <a class="button" href="#insights">Explore my ideas <span>→</span></a>
-      <a class="under" href="#about">More about me ↘</a>
-    </div>
-  </div>
-  <div class="hero-image">
-    <div class="photo-placeholder"><span>YOUR<br>PHOTO</span></div>
-    <div class="caption">Mohammad Daei Jafari<br><small>Research · Practice · Conversation</small></div>
-  </div>
-</section>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HIGHER EDUCATION • I-O PSYCHOLOGY • ORGANIZATIONAL BEHAVIOR</p>
+        <h1>Mohammad<br><span>Reza Daei Jafari</span></h1>
+        <p class="hero-text">
+          Researcher, writer, and higher-education professional exploring the intersection of
+          people, organizations, technology, and learning.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#about">Explore My Story</a>
+          <a class="button ghost" href="#daily-insights">Read My Writing</a>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/mohammad-reza-daei-jafari/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=QjJZvMoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.researchgate.net/profile/Mohammad-Reza-Daei-Jafari" target="_blank" rel="noopener">ResearchGate</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <img src="assets/portrait-1.jpg" alt="Mohammad Reza Daei Jafari">
+          <div class="portrait-caption">
+            <span>Personal Brand</span>
+            <strong>Ideas • Research • Life</strong>
+          </div>
+        </div>
+        <div class="floating-note">Currently building ideas at the intersection of higher education, psychology & organizations.</div>
+      </div>
+    </section>
 
-<section class="ticker"><div>RESEARCH</div><div>WRITING</div><div>PODCAST</div><div>VIDEO</div><div>LEADERSHIP</div><div>PSYCHOLOGY</div></section>
+    <section class="ticker" aria-label="Topics">
+      <div>Research</div><div>Writing</div><div>Higher Education</div><div>I-O Psychology</div><div>Organizational Behavior</div><div>Technology</div><div>Leadership</div>
+    </section>
 
-<section id="about" class="section about">
-  <div class="label">01 — ABOUT</div>
-  <div>
-    <h2>A personal space for ideas, work, and conversation.</h2>
-    <p class="large">This is more than an academic profile. It is a growing collection of my thinking, research, professional work, conversations, and perspectives on people and organizations.</p>
-    <p>My work sits at the intersection of psychology, organizational behavior, leadership, higher education, and emerging technology. I am interested in questions that connect evidence with real-world human and organizational challenges.</p>
-    <a class="under" href="#">Read my story →</a>
-  </div>
-</section>
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT ME</p>
+        <h2>A professional life beyond a résumé.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="assets/portrait-2.jpg" alt="Mohammad at a professional event">
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">
+            I am Mohammad Reza Daei Jafari, a PhD student in Higher Education Leadership at Indiana State University,
+            with a background in I-O psychology, organizational behavior, and management.
+          </p>
+          <p>
+            This website is more than an academic profile. It is my personal space for sharing research,
+            public-facing writing, conversations, media, professional experiences, and the interests that shape how I think.
+          </p>
+          <p>
+            My work increasingly focuses on how psychological and organizational perspectives can help us understand
+            people at work, leadership, employee experience, technology, and the changing world of higher education.
+          </p>
+          <div class="facts">
+            <div><span>01</span><strong>Research</strong><small>People, organizations & technology</small></div>
+            <div><span>02</span><strong>Writing</strong><small>Public ideas & practical reflections</small></div>
+            <div><span>03</span><strong>Media</strong><small>Podcasts, video & conversations</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="insights" class="section insights">
-  <div class="section-top">
-    <div><div class="label">02 — INSIGHTS</div><h2>Latest ideas</h2></div>
-    <a class="under" href="#">Explore the archive →</a>
-  </div>
-  <article class="featured-content">
-    <div class="featured-type">FEATURED THIS WEEK · ARTICLE</div>
-    <div>
-      <h3>How technology is changing the way we work — and the questions we should be asking.</h3>
-      <p>A placeholder for your weekly article. Each week, this space can feature your newest article, podcast, or video.</p>
-      <a class="button small" href="#">Read this week’s piece →</a>
-    </div>
-  </article>
-  <div class="content-grid">
-    <article class="content-card"><div class="type">ARTICLE</div><h3>Meaningful Work in a Changing Workplace</h3><p>Short description of your latest written idea.</p><a href="#">Read →</a></article>
-    <article class="content-card dark"><div class="type">PODCAST</div><h3>What makes leadership meaningful?</h3><p>A conversation about leadership, people, and organizations.</p><a href="#">Listen →</a></article>
-    <article class="content-card image-card"><div class="type">VIDEO</div><h3>AI, People & the Future of Work</h3><p>Your latest video or YouTube episode.</p><a href="#">Watch →</a></article>
-  </div>
-</section>
+    <section class="section dark-section" id="daily-insights">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — DAILY INSIGHTS</p>
+        <h2>Ideas worth sharing.</h2>
+        <p>A growing collection of public-facing articles, reflections, and short pieces — similar to the kind of writing I share on LinkedIn.</p>
+      </div>
+      <div class="content-grid" id="insightsGrid"></div>
+    </section>
 
-<section id="work" class="section work">
-  <div class="label">03 — WORK</div>
-  <div class="work-grid">
-    <div><span>01</span><h3>Psychology</h3><p>Human behavior, meaningful work, resilience, well-being, and the psychology of work.</p></div>
-    <div><span>02</span><h3>Organizations</h3><p>Organizational behavior, leadership, workforce development, and contemporary workplaces.</p></div>
-    <div><span>03</span><h3>Higher Education</h3><p>Leadership, organizational systems, student support, and institutional effectiveness.</p></div>
-    <div><span>04</span><h3>Research & Ideas</h3><p>Interdisciplinary research connecting evidence, technology, people, and practice.</p></div>
-  </div>
-</section>
+    <section class="section" id="research">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — RESEARCH</p>
+        <h2>Questions, evidence, and better conversations.</h2>
+        <p>Research interests across organizational behavior, I-O psychology, higher education, technology, and employee experience.</p>
+      </div>
+      <div class="research-layout">
+        <div class="research-feature reveal">
+          <span class="tag">Featured Research</span>
+          <h3>Cyberbullying and Quiet Quitting in Startups</h3>
+          <p>
+            Exploring the psychological roles of meaningful work and resilience among remote startup employees,
+            drawing on Job Demands–Resources and Conservation of Resources perspectives.
+          </p>
+          <a href="https://scholar.google.com/citations?user=QjJZvMoAAAAJ&hl=en" target="_blank" rel="noopener" class="text-link">View research profile →</a>
+        </div>
+        <div class="research-list reveal">
+          <div><span>01</span><strong>Organizational Behavior</strong><p>Employee experience, behavior, culture, leadership, and performance.</p></div>
+          <div><span>02</span><strong>I-O Psychology & Technology</strong><p>Psychology at work in digitally connected and changing organizations.</p></div>
+          <div><span>03</span><strong>Higher Education</strong><p>Leadership, organizational systems, student support, and institutional effectiveness.</p></div>
+        </div>
+      </div>
+    </section>
 
-<section id="publications" class="section publications">
-  <div class="section-top"><div><div class="label">04 — PUBLICATIONS</div><h2>Selected work</h2></div><a class="under" href="#">All publications →</a></div>
-  <div class="pub"><span>2026 · RESEARCH</span><div><h3>Cyberbullying and Quiet Quitting in Startups</h3><p>The psychological roles of meaningful work and resilience in remote startup employees.</p></div></div>
-  <div class="pub"><span>BOOK · AUTHOR</span><div><h3>Book title</h3><p>Add the final title, publisher, year, and description.</p></div></div>
-  <div class="pub"><span>BOOK · AUTHOR</span><div><h3>Book title</h3><p>Add the final title, publisher, year, and description.</p></div></div>
-</section>
+    <section class="section alt-section" id="books">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — BOOKS</p>
+        <h2>Books & longer-form work.</h2>
+        <p>A dedicated place for published books and future long-form projects.</p>
+      </div>
+      <div class="book-grid">
+        <article class="book-card reveal">
+          <div class="book-number">BOOK 01</div>
+          <h3>Published Book</h3>
+          <p>Book information, cover, description, and purchase or publisher link can be added here.</p>
+          <span class="status">Published</span>
+        </article>
+        <article class="book-card featured reveal">
+          <div class="book-number">BOOK 02</div>
+          <h3>Published Book</h3>
+          <p>A second space for a published title, with a short description and external link.</p>
+          <span class="status">Published</span>
+        </article>
+      </div>
+      <p class="edit-note">The two book cards are intentionally editable placeholders until you provide the exact titles, cover images, and links.</p>
+    </section>
 
-<section id="media" class="section media">
-  <div class="section-top"><div><div class="label">05 — MEDIA</div><h2>Watch. Listen. See.</h2></div><p>Content is part of the brand — not an afterthought.</p></div>
-  <div class="media-grid">
-    <a class="media-box video" href="#"><span>WATCH</span><h3>YouTube & Video</h3><p>Videos, talks, lectures, and visual essays.</p><b>Explore →</b></a>
-    <a class="media-box podcast" href="#"><span>LISTEN</span><h3>Podcast</h3><p>Conversations about psychology, leadership, work, and ideas.</p><b>Listen →</b></a>
-    <a class="media-box photos" href="#"><span>SEE</span><h3>Photography</h3><p>Conferences, events, professional portraits, and selected moments.</p><b>View gallery →</b></a>
-  </div>
-</section>
+    <section class="section" id="media">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — MEDIA</p>
+        <h2>Podcast, YouTube & conversations.</h2>
+        <p>Weekly media can live here alongside a simple archive, so the site grows with your personal brand.</p>
+      </div>
+      <div class="media-grid">
+        <article class="media-card podcast reveal">
+          <div class="media-icon">◉</div>
+          <span>Podcast</span>
+          <h3>Conversations & ideas</h3>
+          <p>Embed your latest podcast episode here or connect a podcast platform.</p>
+          <a href="#" class="text-link">Add podcast link →</a>
+        </article>
+        <article class="media-card youtube reveal">
+          <div class="media-icon">▶</div>
+          <span>YouTube</span>
+          <h3>Video & visual thinking</h3>
+          <p>Share short explainers, conversations, conference reflections, and personal videos.</p>
+          <a href="#" class="text-link">Add YouTube channel →</a>
+        </article>
+        <article class="media-photo reveal">
+          <img src="assets/conference-1.jpg" alt="Mohammad at a professional conference">
+        </article>
+      </div>
+    </section>
 
-<section id="services" class="section services">
-  <div class="label">06 — SERVICES</div>
-  <div>
-    <h2>Work with me.</h2>
-    <p class="large">For organizations, universities, teams, and individuals looking for evidence-informed perspectives and professional collaboration.</p>
-  </div>
-  <div class="service-list">
-    <div><span>01</span><h3>Consulting</h3><p>Organizational behavior, people, and workplace topics.</p></div>
-    <div><span>02</span><h3>Speaking & Workshops</h3><p>Talks and workshops on psychology, leadership, technology, and organizations.</p></div>
-    <div><span>03</span><h3>Research Collaboration</h3><p>Interdisciplinary research, writing, and scholarly collaboration.</p></div>
-  </div>
-</section>
+    <section class="section dark-section" id="conferences">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 — CONFERENCES</p>
+        <h2>Where ideas meet people.</h2>
+        <p>A living record of conferences, presentations, professional events, and future appearances.</p>
+      </div>
+      <div class="conference-grid">
+        <article class="conference-card reveal">
+          <span>RECENT</span>
+          <h3>Professional & Academic Conferences</h3>
+          <p>Conference participation, presentations, networking, and reflections will be added here as the archive grows.</p>
+          <a href="https://www.researchgate.net/profile/Mohammad-Reza-Daei-Jafari" target="_blank" rel="noopener">ResearchGate →</a>
+        </article>
+        <div class="conference-photo reveal">
+          <img src="assets/event-1.jpg" alt="Mohammad networking at a professional event">
+        </div>
+      </div>
+    </section>
 
-<section id="contact" class="contact">
-  <div class="section">
-    <div class="label">07 — CONTACT</div>
-    <h2>Let’s start<br>a conversation.</h2>
-    <p>Research, collaboration, speaking, media, or professional inquiries.</p>
-    <a class="email" href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
-    <div class="links"><a href="#">LinkedIn ↗</a><a href="#">YouTube ↗</a><a href="#">Instagram ↗</a><a href="#">Google Scholar ↗</a><a href="#">ORCID ↗</a></div>
-  </div>
-</section>
-</main>
+    <section class="section interests" id="interests">
+      <div class="section-heading reveal">
+        <p class="eyebrow">07 — MY INTERESTS</p>
+        <h2>The person behind the professional profile.</h2>
+        <p>A personal section for interests, hobbies, travel, photography, everyday observations, and the things that make life interesting.</p>
+      </div>
+      <div class="interest-grid">
+        <div class="interest-card reveal"><span>01</span><h3>Photography</h3><p>People, places, moments, and visual stories.</p></div>
+        <div class="interest-card reveal"><span>02</span><h3>Travel & Places</h3><p>Exploring cities, campuses, cultures, and new environments.</p></div>
+        <div class="interest-card reveal"><span>03</span><h3>Learning</h3><p>Books, ideas, conversations, and subjects outside my immediate field.</p></div>
+        <div class="interest-card reveal"><span>04</span><h3>Life in Progress</h3><p>Personal reflections and the experiences that shape my perspective.</p></div>
+      </div>
+    </section>
 
-<footer><strong>Mohammad Daei Jafari</strong><span>Personal Brand · Ideas · Research · Conversation</span><span>© <span id="year"></span></span></footer>
-<script src="script.js"></script>
+    <section class="section cv-section" id="cv">
+      <div class="cv-box reveal">
+        <div>
+          <p class="eyebrow">08 — CV</p>
+          <h2>Want the formal version?</h2>
+          <p>Keep the personal website human. Keep the CV precise.</p>
+        </div>
+        <a class="button primary" href="assets/Mohammad-Reza-Daei-Jafari-CV.pdf" target="_blank">View CV ↗</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">09 — CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p>For research conversations, professional opportunities, media, collaborations, or simply a good idea.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://www.linkedin.com/in/mohammad-reza-daei-jafari/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+        <a href="https://scholar.google.com/citations?user=QjJZvMoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span>↗</span></a>
+        <a href="https://www.researchgate.net/profile/Mohammad-Reza-Daei-Jafari" target="_blank" rel="noopener">ResearchGate <span>↗</span></a>
+        <a href="mailto:YOUR-EMAIL@example.com">Email <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>Mohammad Reza Daei Jafari</strong><span>Personal website</span></div>
+    <div>© <span id="year"></span> All rights reserved.</div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
