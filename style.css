@@ -28,3 +28,13 @@
 .media-photo figcaption{padding:14px 17px;color:var(--muted);font-size:.92rem}
 .media-photo.featured img{object-position:center 25%}
 @media(max-width:780px){.media-gallery{grid-template-columns:1fr}.media-photo img{height:auto;max-height:620px;object-fit:cover}}
+
+
+/* Publications page additions — matched to the existing site design */
+.publication-group{margin:0 0 46px}
+.publication-entry{padding:19px 0;border-bottom:1px solid var(--line);max-width:1000px}
+.publication-entry p{margin:0;max-width:1000px;color:#4d5b6d}
+.publication-entry strong{color:var(--navy)}
+.publication-entry em{color:#34445b}
+.publication-status{display:inline-block;margin-top:9px;padding:3px 8px;border:1px solid var(--line);background:var(--wash);color:var(--blue);font-size:.78rem;font-weight:700}
+.publication-note{padding:18px 20px;background:var(--wash);border-left:3px solid var(--blue);color:var(--muted);margin-top:28px}
