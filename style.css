@@ -30,11 +30,33 @@
 @media(max-width:780px){.media-gallery{grid-template-columns:1fr}.media-photo img{height:auto;max-height:620px;object-fit:cover}}
 
 
-/* Publications page additions — matched to the existing site design */
-.publication-group{margin:0 0 46px}
-.publication-entry{padding:19px 0;border-bottom:1px solid var(--line);max-width:1000px}
+/* Added Future of Work graphic and publications within Research; existing site styles remain intact. */
+.research-theme-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.78fr) minmax(0,1fr);grid-template-rows:1fr 1fr;gap:20px;align-items:stretch;margin-top:28px}
+.research-theme-grid .info-card{min-height:190px;display:flex;flex-direction:column;justify-content:center}
+.research-theme-grid .theme-one{grid-column:1;grid-row:1}
+.research-theme-grid .theme-two{grid-column:3;grid-row:1}
+.research-theme-grid .theme-three{grid-column:1;grid-row:2}
+.research-theme-grid .theme-four{grid-column:3;grid-row:2}
+.future-work-figure{grid-column:2;grid-row:1 / span 2;align-self:center;justify-self:center;width:min(100%,330px);margin:0;text-align:center}
+.future-work-figure img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;border:7px solid #fff;box-shadow:0 15px 40px rgba(20,34,56,.15);outline:1px solid var(--line)}
+.future-work-figure figcaption{font-family:Georgia,"Times New Roman",serif;font-size:1.2rem;color:var(--navy);margin-top:12px}
+.publications-section{margin-top:76px;padding-top:46px;border-top:1px solid var(--line);scroll-margin-top:95px}
+.publications-heading{margin-bottom:28px}
+.publications-heading h2{margin-bottom:8px}
+.publication-group{margin:36px 0}
+.publication-group h3{font-family:Georgia,"Times New Roman",serif;font-size:1.55rem;font-weight:500;color:var(--navy);margin-bottom:18px}
+.publication-entry{padding:17px 0;border-bottom:1px solid var(--line);max-width:1000px}
 .publication-entry p{margin:0;max-width:1000px;color:#4d5b6d}
 .publication-entry strong{color:var(--navy)}
 .publication-entry em{color:#34445b}
-.publication-status{display:inline-block;margin-top:9px;padding:3px 8px;border:1px solid var(--line);background:var(--wash);color:var(--blue);font-size:.78rem;font-weight:700}
-.publication-note{padding:18px 20px;background:var(--wash);border-left:3px solid var(--blue);color:var(--muted);margin-top:28px}
+@media(max-width:900px){
+ .research-theme-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto}
+ .research-theme-grid .theme-one,.research-theme-grid .theme-two,.research-theme-grid .theme-three,.research-theme-grid .theme-four{grid-column:auto;grid-row:auto}
+ .future-work-figure{grid-column:1 / -1;grid-row:auto;width:min(78%,310px);order:0}
+}
+@media(max-width:600px){
+ .research-theme-grid{grid-template-columns:1fr}
+ .research-theme-grid .info-card{min-height:0}
+ .future-work-figure{grid-column:1;width:min(84%,290px)}
+ .publications-section{margin-top:52px;padding-top:32px}
+}

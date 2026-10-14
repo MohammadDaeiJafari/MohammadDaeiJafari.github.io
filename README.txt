@@ -1,13 +1,17 @@
-MOHAMMAD REZA DAEI JAFARI — WEBSITE FILES
+MOHAMMAD REZA DAEI JAFARI WEBSITE — UPDATED PACKAGE
 
-This package preserves the existing website layout, homepage, biography/contact pages, photos, typography, colors, and responsive navigation.
+This package is based on the supplied website with photos and biography.
 
-Updates in this version:
-- Added publications.html using the existing site design.
-- Added Publications to the navigation on all HTML pages.
-- Added a link from the Research page to the full publications list.
-- Kept existing page content and image assets in place.
+Requested changes:
+- The top-left site brand now says Home instead of the name.
+- Publications has been removed as a separate top-level navigation item.
+- All journal articles, manuscripts under review, and conference entries are listed inside Research.
+- The Home hero now uses the generated lighthouse image.
+- The Research page places a generated Future of Work illustration between the four research themes.
+- Existing site pages, photographs, biography, and overall color palette/layout are retained.
 
-Upload the contents of this folder to the root of your existing website repository. Keep the assets/images folder structure intact. The CV navigation item expects a cv.pdf file in the site root; add your CV PDF if it is not already hosted.
+Images added:
+- assets/images/lighthouse-home.jpg
+- assets/images/future-of-work.jpg
 
-Before publishing, verify bibliographic details and ensure manuscript and conference statuses accurately reflect official decisions.
+To publish, back up your current site, extract this ZIP, and upload the files and folders to the root of your website repository. Keep the assets folder structure. The CV link expects cv.pdf in the root if you want that link to work.
